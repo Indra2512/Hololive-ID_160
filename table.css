@@ -1,0 +1,95 @@
+/* Reset dasar */
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    margin: 0;
+    padding: 0;
+}
+
+/* Judul utama */
+h1 {
+    color: white;
+    margin-top: 20px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+/* Judul list */
+#judul {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin: 20px 0;
+}
+
+/* Tabel */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Header tabel */
+tr:first-child {
+    background-color: #00c6ff;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Cell */
+td {
+    padding: 15px;
+    vertical-align: top;
+}
+
+/* Gambar */
+img {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+/* Hover gambar */
+img:hover {
+    transform: scale(1.1);
+}
+
+/* Hover baris */
+tr:hover {
+    background-color: #f2faff;
+    transition: 0.3s;
+}
+
+/* Label */
+#Member {
+    font-weight: bold;
+    color: #444;
+    display: inline;
+}
+
+/* Isi data */
+#mnama {
+    color: #0077cc;
+    font-weight: bold;
+    display: inline;
+}
+
+#mposisi, #mdebut, #msub {
+    color: #555;
+    display: inline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    table {
+        width: 95%;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}
